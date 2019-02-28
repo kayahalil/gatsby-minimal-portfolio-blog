@@ -27,6 +27,9 @@ class Layout extends React.Component {
         <br />
         {children}
         {/* <Footer /> */}
+        <noscript>
+          Sitenin çalışabilmesi için Javascript etkinleştirilmelidir.
+        </noscript>
       </div>
     )
   }
