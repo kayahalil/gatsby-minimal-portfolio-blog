@@ -25,9 +25,9 @@ class Journey extends React.Component {
     return (
       <Layout style={{ maxWidth: rhythm(45) }}>
         <Helmet
-          htmlAttributes={{ lang: 'en' }}
+          htmlAttributes={{ lang: 'tr' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`Journey | ${siteTitle}`}
+          title={`Journey`}
         />
 
         <h2>Journey</h2>

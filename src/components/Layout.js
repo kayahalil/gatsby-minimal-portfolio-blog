@@ -13,7 +13,7 @@ class Layout extends React.Component {
       marginLeft: 'auto',
       marginRight: 'auto',
       maxWidth: rhythm(32),
-      padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+      padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
     }
 
     const finalStyle = {
@@ -26,7 +26,7 @@ class Layout extends React.Component {
         <Navbar />
         <br />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
   }

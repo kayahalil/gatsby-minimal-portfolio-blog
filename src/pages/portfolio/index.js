@@ -18,9 +18,9 @@ class portfolioIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          htmlAttributes={{ lang: 'en' }}
+          htmlAttributes={{ lang: 'tr' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`Portfolio | ${siteTitle}`}
+          title={`Portfolio`}
         />
         <h2>Portfolio</h2>
         <br />
