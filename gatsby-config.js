@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Halil Kaya kişisel web sayfası',
-    author: 'Sai Krishna',
-    description:
-      'Halil Kaya kişisel web sayfası',
+    author: 'Halil Kaya',
+    description: 'Halil Kaya kişisel web sayfası',
     siteUrl: 'https://halilkaya.ist',
   },
   pathPrefix: '/',
@@ -39,12 +38,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-135357675-1`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: `UA-135357675-1`,
+    //   },
+    // },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
