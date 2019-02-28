@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: '',
+    title: 'Halil Kaya kişisel web sayfası',
     author: 'Sai Krishna',
     description:
       'Halil Kaya kişisel web sayfası',
@@ -42,7 +42,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-135357675-1`,
       },
     },
     `gatsby-plugin-feed`,
