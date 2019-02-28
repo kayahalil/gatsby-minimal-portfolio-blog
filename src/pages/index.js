@@ -4,7 +4,6 @@ import get from 'lodash/get'
 import Hemlet from 'react-helmet'
 
 import Layout from '../components/Layout'
-import DisplayImage from './../assets/images/main_image.jpg'
 
 class SiteIndex extends React.Component {
   render() {
@@ -35,7 +34,6 @@ class SiteIndex extends React.Component {
           sit amet tellus cras adipiscing enim. Amet massa vitae tortor
           condimentum lacinia quis vel eros donec.
         </p>
-        <img src={DisplayImage} alt={siteTitle} />
       </Layout>
     )
   }
